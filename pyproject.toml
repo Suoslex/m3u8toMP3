@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "m3u8toMP3"
+version = "0.1.0"
+description = ""
+authors = ["Suoslex <mtsarev06@gmail.com>"]
+readme = "README.md"
+packages = [{include = "m3u8toMP3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+m3u8 = "^6.0.0"
+pycryptodome = "^3.20.0"
+httpx = "^0.27.2"
+python-ffmpeg = "^2.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
