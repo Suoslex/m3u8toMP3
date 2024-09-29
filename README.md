@@ -11,6 +11,7 @@ Key features:
   raw bytes objects inside your scripts.
 - ffmpeg tends to cut the beginning and the ending of 
   streams when converting to MP3, the script fixes this issue.
+- Can be run on Windows, macOS and Linux.
 
 ## Dependencies
 
@@ -40,7 +41,7 @@ then something went wrong during ffmpeg installation.
 Please try reinstalling or find help on the Internet.
 
 
-## Installation and usage as an executable
+## Installation and usage as an executable on Unix 
 
 Download the latest release from the 
 [Releases](https://github.com/Suoslex/m3u8toMP3/releases) page.
@@ -85,6 +86,17 @@ And then you can run the program anywhere:
 m3u8toMP3 "https://some-site.com/index.m3u8"
 ```
 
+## Installation and usage as an executable on Windows
+
+If you are not an advanced Windows user and don't want to 
+deal with command lines, the easiest way for you is to download
+2 files from the [Releases](https://github.com/Suoslex/m3u8toMP3/releases) 
+page: 
+[m3u8toMP3_0.1.1_win.exe](https://github.com/Suoslex/m3u8toMP3/releases/download/0.1.1/m3u8toMP3_0.1.1_win.exe) 
+and 
+[convert_m3u8.bat](https://github.com/Suoslex/m3u8toMP3/releases/download/0.1.1/convert_m3u8.bat) 
+
+Put these 2 files in the same directory and run the **convert_m3u8.bat**.
 
 ## Installation and usage as a python script
 
