@@ -1,4 +1,4 @@
-class M3U8toMP3Error(Exception):
+class M3u8toMP3Error(Exception):
     message = "There was an error executing the script"
 
     def __init__(self, detail: str = None):
@@ -7,9 +7,9 @@ class M3U8toMP3Error(Exception):
         super().__init__(f"{message}")
 
 
-class RequestError(M3U8toMP3Error, RuntimeError):
+class RequestError(M3u8toMP3Error, RuntimeError):
     message = "There was an error getting a response from the URL"
 
 
-class FileBytesRetrievalError(M3U8toMP3Error, FileNotFoundError):
+class FileBytesRetrievalError(M3u8toMP3Error, FileNotFoundError):
     message = "There was an error trying to retrieve bytes from the file"

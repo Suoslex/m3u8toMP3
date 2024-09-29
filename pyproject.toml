@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "m3u8toMP3"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "Convert your m3u8 files to MP3"
 authors = ["Suoslex <mtsarev06@gmail.com>"]
 readme = "README.md"
 packages = [{include = "m3u8toMP3"}]
